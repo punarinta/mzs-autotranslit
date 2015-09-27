@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ns-XX">
+<body>
+<div>Your language is "<b id="lang"></b>".</div>
+
+<h2>Běženeci stavjajųt tenty točno na grobišči</h2>
+<p>
+    Na pravoslavnom grobišči pri hrvatskom gradě Tovarnik, blizko do srbskoj granice sųt sotnje běženecev
+    iz tretjego světa ustrojili tentovo poseljenje. Obrazy toj  rastųčej kupy čudžakov, koje stavjajųt tenty,
+    razpostirajųt smetje, ležijųt ili spijųt na grobah, sųt pričinili močne emocije na Balkanah.
+</p>
+<p>
+    Srbska gazeta nazvala čudžakov "hvorymi", kogda te bezčestno ustrojili poseljenje točno na grobišči.
+</p>
+<p>
+    Grobišče jest položeno na hrvatskoj zemji, na městě gde državna granica ne slěduje rěkojų Dunaj.
+    Běženeci sę nadějali probiti sę vnųtr Hrvatski, čtoby potom dvignųti sę do sěvera, do držav
+    kak Němacka ili Švedska, gde ih by čekali groši od ščedryh lěvyh.
+</p>
+<p>
+    Hrvatska vlada toliko dvě sedmice tomu vitala čudžakov i klęla madjarov, ktory starali sę zaštopovati tečenja.
+    Ale sejčas, kogda Madjarska jest zatvorila svojų granicų, i desętki tysęčev sųt potěkli do ih v zaměn Madjarski,
+    vlada už sama sili sę obstanoviti invazijų.
+</p>
+</body>
+<script>
+    // you may use markup instead, of course
+    var i, el = document.querySelectorAll('p, h2');
+    for (i = 0; i < el.length; i++) el[i].className = 'mzs-tlit';
+
+    // for those who wonder what language do they have in their browser
+    document.getElementById('lang').innerText = navigator.language.split('-')[0];
+</script>
+<script src="mzs-tlit.js"></script>
+</html>
