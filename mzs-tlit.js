@@ -39,7 +39,7 @@
   };
 
   // find all elements to proceed
-  var i, j, el = document.querySelectorAll('p, h2');
+  var i, j, el = document.querySelectorAll('.mzs-tlit');
   for (i = 0; i < el.length; i++)
   {
     var sym = el[i].innerText.split('');
